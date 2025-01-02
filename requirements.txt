@@ -1,0 +1,9 @@
+fastapi~=0.115.6
+python-multipart~=0.0.20
+ruff~=0.8.4
+starlette~=0.41.3
+aiofiles~=24.1.0
+pyacrcloud==1.0.8
+requests~=2.32.3
+python-dotenv~=1.0.1
+infisicalsdk~=0.2.0

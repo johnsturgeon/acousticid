@@ -1,0 +1,20 @@
+POST http://localhost:8765/api/get_song_metadata
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer let-me-in
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="journey_dixie_highway.wav"
+
+< journey_dixie_highway.wav
+--WebAppBoundary--
+
+###
+POST http://localhost:8765/api/get_song_metadata
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer let-me-in
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="dimatis.wav"
+
+< dimatis.wav
+--WebAppBoundary--
